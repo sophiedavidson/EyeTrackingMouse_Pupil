@@ -2,9 +2,9 @@
  
  ## About the Project
  
- **Author**: Sophie Davidson 
- **Topic**: Created for IMT Atlantique as part of the Baudin Internships in France Program
- **Purpose**:  Generate a gaze controlled mouse cursor using Pupil Capture by Pupil Labs.
+ **Author**: Sophie Davidson   
+ **Topic**: Created for IMT Atlantique as part of the Baudin Internships in France Program  
+ **Purpose**:  Generate a gaze controlled mouse cursor using Pupil Capture by Pupil Labs  
  
 **Dependencies:** 
 - pyglet 
