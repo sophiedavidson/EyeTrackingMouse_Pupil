@@ -19,12 +19,12 @@ def startCursor(sub, surfaceName):
     # Until ESC is pressed, use the eye tracker to define mouse position
     loop = True
     while loop:
-        print("working")
         if keyboard.is_pressed("esc"):
             break
         (x, y) = getGazePosition(sub, surfaceName)
-        print(x, y)
         if x is not None:
             x = x*width
             y = height - y*height
             pyautogui.moveTo(x, y)
+        if keyboard.is_pressed("space"):
+            pyautogui.click(x, y)
